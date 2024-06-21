@@ -50,5 +50,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ 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}} #this is the key of the access token
+          github_token: ${{ CHAVE }} #this is the key of the access token
           publish_dir: ./todo/build
